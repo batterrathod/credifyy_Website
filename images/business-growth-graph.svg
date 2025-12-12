@@ -1,0 +1,97 @@
+<svg width="700" height="600" viewBox="0 0 700 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="700" height="600" rx="24" fill="#F9FAFB"/>
+  
+  <!-- Grid Pattern -->
+  <g opacity="0.1">
+    <path d="M100 0V600" stroke="#E5E7EB" stroke-width="1"/>
+    <path d="M200 0V600" stroke="#E5E7EB" stroke-width="1"/>
+    <path d="M300 0V600" stroke="#E5E7EB" stroke-width="1"/>
+    <path d="M400 0V600" stroke="#E5E7EB" stroke-width="1"/>
+    <path d="M500 0V600" stroke="#E5E7EB" stroke-width="1"/>
+    <path d="M600 0V600" stroke="#E5E7EB" stroke-width="1"/>
+    <path d="M0 100H700" stroke="#E5E7EB" stroke-width="1"/>
+    <path d="M0 200H700" stroke="#E5E7EB" stroke-width="1"/>
+    <path d="M0 300H700" stroke="#E5E7EB" stroke-width="1"/>
+    <path d="M0 400H700" stroke="#E5E7EB" stroke-width="1"/>
+    <path d="M0 500H700" stroke="#E5E7EB" stroke-width="1"/>
+  </g>
+  
+  <!-- Main Chart Area -->
+  <rect x="80" y="80" width="540" height="380" rx="16" fill="white" stroke="#E5E7EB" stroke-width="2"/>
+  
+  <!-- Growth Line Background Gradient -->
+  <defs>
+    <linearGradient id="growthGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#5562eb;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#5562eb;stop-opacity:0" />
+    </linearGradient>
+    
+    <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#5562eb" />
+      <stop offset="100%" style="stop-color:#7161ef" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Growth Area Fill -->
+  <path d="M120 400 L120 380 L180 350 L240 320 L300 280 L360 220 L420 180 L480 150 L540 120 L580 100 L580 400 Z" fill="url(#growthGradient)" opacity="0.5"/>
+  
+  <!-- Growth Line -->
+  <path d="M120 380 L180 350 L240 320 L300 280 L360 220 L420 180 L480 150 L540 120 L580 100" stroke="url(#lineGradient)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  
+  <!-- Data Points -->
+  <circle cx="120" cy="380" r="6" fill="#5562eb" stroke="white" stroke-width="3"/>
+  <circle cx="180" cy="350" r="6" fill="#5562eb" stroke="white" stroke-width="3"/>
+  <circle cx="240" cy="320" r="6" fill="#5562eb" stroke="white" stroke-width="3"/>
+  <circle cx="300" cy="280" r="6" fill="#5562eb" stroke="white" stroke-width="3"/>
+  <circle cx="360" cy="220" r="6" fill="#5562eb" stroke="white" stroke-width="3"/>
+  <circle cx="420" cy="180" r="6" fill="#5562eb" stroke="white" stroke-width="3"/>
+  <circle cx="480" cy="150" r="6" fill="#5562eb" stroke="white" stroke-width="3"/>
+  <circle cx="540" cy="120" r="6" fill="#5562eb" stroke="white" stroke-width="3"/>
+  <circle cx="580" cy="100" r="8" fill="#7161ef" stroke="white" stroke-width="4"/>
+  
+  <!-- Y-axis labels -->
+  <text x="60" y="105" font-family="Inter, sans-serif" font-size="12" fill="#6B7280" text-anchor="end">₹50Cr</text>
+  <text x="60" y="185" font-family="Inter, sans-serif" font-size="12" fill="#6B7280" text-anchor="end">₹40Cr</text>
+  <text x="60" y="265" font-family="Inter, sans-serif" font-size="12" fill="#6B7280" text-anchor="end">₹30Cr</text>
+  <text x="60" y="345" font-family="Inter, sans-serif" font-size="12" fill="#6B7280" text-anchor="end">₹20Cr</text>
+  <text x="60" y="425" font-family="Inter, sans-serif" font-size="12" fill="#6B7280" text-anchor="end">₹10Cr</text>
+  
+  <!-- X-axis labels -->
+  <text x="120" y="480" font-family="Inter, sans-serif" font-size="12" fill="#6B7280" text-anchor="middle">2020</text>
+  <text x="240" y="480" font-family="Inter, sans-serif" font-size="12" fill="#6B7280" text-anchor="middle">2021</text>
+  <text x="360" y="480" font-family="Inter, sans-serif" font-size="12" fill="#6B7280" text-anchor="middle">2022</text>
+  <text x="480" y="480" font-family="Inter, sans-serif" font-size="12" fill="#6B7280" text-anchor="middle">2023</text>
+  <text x="580" y="480" font-family="Inter, sans-serif" font-size="12" fill="#6B7280" text-anchor="middle">2024</text>
+  
+  <!-- Chart Title -->
+  <text x="350" y="40" font-family="Inter, sans-serif" font-size="24" font-weight="600" fill="#111827" text-anchor="middle">Business Growth After Loan</text>
+  
+  <!-- Growth Arrow -->
+  <path d="M520 140 L560 110 M560 110 L560 140 M560 110 L530 110" stroke="#10B981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  
+  <!-- Growth Percentage -->
+  <rect x="480" y="70" width="100" height="30" rx="15" fill="#10B981" opacity="0.1"/>
+  <text x="530" y="90" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#10B981" text-anchor="middle">+280%</text>
+  
+  <!-- Decorative Elements -->
+  <circle cx="50" cy="50" r="20" fill="#5562eb" opacity="0.1"/>
+  <circle cx="650" cy="550" r="30" fill="#7161ef" opacity="0.1"/>
+  
+  <!-- Business Icons -->
+  <g transform="translate(150, 520)">
+    <rect width="40" height="40" rx="8" fill="#5562eb" opacity="0.1"/>
+    <path d="M10 20 L20 10 L30 20 L30 30 L10 30 Z" fill="#5562eb" opacity="0.6"/>
+  </g>
+  
+  <g transform="translate(330, 520)">
+    <rect width="40" height="40" rx="8" fill="#5562eb" opacity="0.1"/>
+    <circle cx="20" cy="20" r="12" fill="#5562eb" opacity="0.6"/>
+    <text x="20" y="25" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="white" text-anchor="middle">₹</text>
+  </g>
+  
+  <g transform="translate(510, 520)">
+    <rect width="40" height="40" rx="8" fill="#5562eb" opacity="0.1"/>
+    <path d="M10 15 L30 15 M10 20 L30 20 M10 25 L30 25" stroke="#5562eb" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  </g>
+</svg>

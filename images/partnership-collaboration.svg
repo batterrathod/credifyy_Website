@@ -1,0 +1,135 @@
+<svg width="700" height="600" viewBox="0 0 700 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="700" height="600" rx="24" fill="#F9FAFB"/>
+  
+  <!-- Grid Pattern -->
+  <g opacity="0.1">
+    <path d="M100 0V600" stroke="#E5E7EB" stroke-width="1"/>
+    <path d="M200 0V600" stroke="#E5E7EB" stroke-width="1"/>
+    <path d="M300 0V600" stroke="#E5E7EB" stroke-width="1"/>
+    <path d="M400 0V600" stroke="#E5E7EB" stroke-width="1"/>
+    <path d="M500 0V600" stroke="#E5E7EB" stroke-width="1"/>
+    <path d="M600 0V600" stroke="#E5E7EB" stroke-width="1"/>
+    <path d="M0 100H700" stroke="#E5E7EB" stroke-width="1"/>
+    <path d="M0 200H700" stroke="#E5E7EB" stroke-width="1"/>
+    <path d="M0 300H700" stroke="#E5E7EB" stroke-width="1"/>
+    <path d="M0 400H700" stroke="#E5E7EB" stroke-width="1"/>
+    <path d="M0 500H700" stroke="#E5E7EB" stroke-width="1"/>
+  </g>
+  
+  <!-- Main Container -->
+  <rect x="80" y="80" width="540" height="440" rx="16" fill="white" stroke="#E5E7EB" stroke-width="2"/>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="primaryGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#5562eb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7161ef;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="secondaryGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7161ef;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B7FF0;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="lightGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#5562eb;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#5562eb;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Left Figure -->
+  <g transform="translate(200, 250)">
+    <!-- Body -->
+    <circle cx="0" cy="-50" r="40" fill="url(#primaryGradient)"/>
+    <path d="M-30 -30 L-30 50 L30 50 L30 -30" fill="url(#primaryGradient)" opacity="0.9"/>
+    
+    <!-- Head -->
+    <circle cx="0" cy="-100" r="25" fill="#F3F4F6" stroke="#E5E7EB" stroke-width="2"/>
+    
+    <!-- Features -->
+    <circle cx="-8" cy="-105" r="2" fill="#374151"/>
+    <circle cx="8" cy="-105" r="2" fill="#374151"/>
+    <path d="M-10 -95 Q0 -90 10 -95" stroke="#374151" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Center Handshake -->
+  <g transform="translate(350, 300)">
+    <!-- Connection Lines -->
+    <path d="M-100 -20 Q-50 -40 0 -20" stroke="#E5E7EB" stroke-width="2" fill="none" opacity="0.5"/>
+    <path d="M100 -20 Q50 -40 0 -20" stroke="#E5E7EB" stroke-width="2" fill="none" opacity="0.5"/>
+    
+    <!-- Handshake -->
+    <g transform="rotate(-10)">
+      <path d="M-40 0 L-20 0 L-15 -5 L-10 0 L-5 -5 L0 0 L5 -5 L10 0 L15 -5 L20 0 L40 0 L40 20 L20 20 L20 10 L15 15 L10 10 L5 15 L0 10 L-5 15 L-10 10 L-15 15 L-20 10 L-20 20 L-40 20 Z" 
+            fill="url(#primaryGradient)" opacity="0.8"/>
+    </g>
+    <g transform="rotate(10)">
+      <path d="M-40 0 L-20 0 L-15 5 L-10 0 L-5 5 L0 0 L5 5 L10 0 L15 5 L20 0 L40 0 L40 -20 L20 -20 L20 -10 L15 -15 L10 -10 L5 -15 L0 -10 L-5 -15 L-10 -10 L-15 -15 L-20 -10 L-20 -20 L-40 -20 Z" 
+            fill="url(#secondaryGradient)" opacity="0.8"/>
+    </g>
+    
+    <!-- Central Connection Point -->
+    <circle cx="0" cy="0" r="15" fill="white" stroke="url(#primaryGradient)" stroke-width="3"/>
+    <circle cx="0" cy="0" r="8" fill="url(#primaryGradient)"/>
+  </g>
+  
+  <!-- Right Figure -->
+  <g transform="translate(500, 250)">
+    <!-- Body -->
+    <circle cx="0" cy="-50" r="40" fill="url(#secondaryGradient)"/>
+    <path d="M-30 -30 L-30 50 L30 50 L30 -30" fill="url(#secondaryGradient)" opacity="0.9"/>
+    
+    <!-- Head -->
+    <circle cx="0" cy="-100" r="25" fill="#F3F4F6" stroke="#E5E7EB" stroke-width="2"/>
+    
+    <!-- Features -->
+    <circle cx="-8" cy="-105" r="2" fill="#374151"/>
+    <circle cx="8" cy="-105" r="2" fill="#374151"/>
+    <path d="M-10 -95 Q0 -90 10 -95" stroke="#374151" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Decorative Elements -->
+  <!-- Growth Arrow -->
+  <g transform="translate(350, 420)">
+    <path d="M-80 20 L-40 0 L0 -20 L40 -10 L80 -30" stroke="url(#primaryGradient)" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <polygon points="80,-30 85,-25 75,-28" fill="url(#primaryGradient)"/>
+  </g>
+  
+  <!-- Success Indicators -->
+  <g transform="translate(180, 380)">
+    <circle cx="0" cy="0" r="20" fill="#10B981" opacity="0.1"/>
+    <path d="M-8 0 L-3 5 L8 -6" stroke="#10B981" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  
+  <g transform="translate(520, 380)">
+    <circle cx="0" cy="0" r="20" fill="#10B981" opacity="0.1"/>
+    <path d="M-8 0 L-3 5 L8 -6" stroke="#10B981" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  
+  <!-- Floating Elements -->
+  <g opacity="0.6">
+    <!-- Top Left -->
+    <circle cx="150" cy="120" r="4" fill="#5562eb"/>
+    <circle cx="170" cy="140" r="3" fill="#7161ef"/>
+    <circle cx="130" cy="150" r="5" fill="#5562eb" opacity="0.5"/>
+    
+    <!-- Top Right -->
+    <circle cx="550" cy="120" r="4" fill="#7161ef"/>
+    <circle cx="530" cy="140" r="3" fill="#5562eb"/>
+    <circle cx="570" cy="150" r="5" fill="#7161ef" opacity="0.5"/>
+    
+    <!-- Bottom -->
+    <circle cx="350" cy="480" r="4" fill="#5562eb"/>
+    <circle cx="330" cy="460" r="3" fill="#7161ef"/>
+    <circle cx="370" cy="460" r="3" fill="#5562eb"/>
+  </g>
+  
+  <!-- Background Decoration -->
+  <circle cx="350" cy="300" r="180" fill="none" stroke="url(#lightGradient)" stroke-width="40" opacity="0.3"/>
+  <circle cx="350" cy="300" r="220" fill="none" stroke="url(#lightGradient)" stroke-width="30" opacity="0.2"/>
+  
+  <!-- Text Labels -->
+  <text x="350" y="140" text-anchor="middle" font-family="Inter, sans-serif" font-size="24" font-weight="600" fill="#1F2937">Enterprise Partnership</text>
+  <text x="350" y="170" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" fill="#6B7280">Collaborate • Grow • Succeed</text>
+</svg>

@@ -1,0 +1,130 @@
+<svg width="700" height="600" viewBox="0 0 700 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="700" height="600" rx="24" fill="#F9FAFB"/>
+  
+  <!-- Grid Pattern -->
+  <g opacity="0.05">
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect width="40" height="40" fill="none" stroke="#E5E7EB" stroke-width="0.5"/>
+    </pattern>
+    <rect width="700" height="600" fill="url(#grid)"/>
+  </g>
+  
+  <!-- Gradient Definitions -->
+  <defs>
+    <linearGradient id="cardGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#5562eb" />
+      <stop offset="100%" style="stop-color:#7161ef" />
+    </linearGradient>
+    
+    <linearGradient id="cardGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10B981" />
+      <stop offset="100%" style="stop-color:#059669" />
+    </linearGradient>
+    
+    <linearGradient id="cardGradient3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F59E0B" />
+      <stop offset="100%" style="stop-color:#DC2626" />
+    </linearGradient>
+    
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="8"/>
+      <feOffset dx="0" dy="8"/>
+      <feFlood flood-opacity="0.15"/>
+      <feComposite in2="SourceAlpha" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Main Credit Card -->
+  <g transform="translate(200, 150) rotate(-10)" filter="url(#shadow)">
+    <rect width="320" height="200" rx="16" fill="url(#cardGradient1)"/>
+    <!-- Card Pattern -->
+    <circle cx="280" cy="40" r="60" fill="white" opacity="0.1"/>
+    <circle cx="320" cy="80" r="80" fill="white" opacity="0.05"/>
+    <!-- Chip -->
+    <rect x="40" y="60" width="50" height="40" rx="8" fill="#F3F4F6" stroke="#D1D5DB" stroke-width="1"/>
+    <rect x="48" y="68" width="34" height="24" rx="4" fill="#9CA3AF"/>
+    <!-- Card Number -->
+    <text x="40" y="140" font-family="monospace" font-size="18" fill="white" opacity="0.9">•••• •••• •••• 4532</text>
+    <!-- Name -->
+    <text x="40" y="170" font-family="Inter, sans-serif" font-size="14" fill="white" opacity="0.8">CARDHOLDER NAME</text>
+    <!-- Logo -->
+    <circle cx="260" cy="160" r="20" fill="white" opacity="0.3"/>
+    <circle cx="280" cy="160" r="20" fill="white" opacity="0.3"/>
+  </g>
+  
+  <!-- Second Credit Card -->
+  <g transform="translate(320, 200) rotate(5)" filter="url(#shadow)">
+    <rect width="320" height="200" rx="16" fill="url(#cardGradient2)"/>
+    <!-- Card Pattern -->
+    <path d="M0 100 Q160 50 320 100" stroke="white" stroke-width="2" opacity="0.2" fill="none"/>
+    <path d="M0 140 Q160 90 320 140" stroke="white" stroke-width="2" opacity="0.1" fill="none"/>
+    <!-- Chip -->
+    <rect x="40" y="60" width="50" height="40" rx="8" fill="#F3F4F6" stroke="#D1D5DB" stroke-width="1"/>
+    <rect x="48" y="68" width="34" height="24" rx="4" fill="#9CA3AF"/>
+    <!-- Card Number -->
+    <text x="40" y="140" font-family="monospace" font-size="18" fill="white" opacity="0.9">•••• •••• •••• 7891</text>
+    <!-- Name -->
+    <text x="40" y="170" font-family="Inter, sans-serif" font-size="14" fill="white" opacity="0.8">PREMIUM MEMBER</text>
+    <!-- Logo -->
+    <rect x="250" y="150" width="50" height="30" rx="4" fill="white" opacity="0.3"/>
+  </g>
+  
+  <!-- Third Credit Card (Background) -->
+  <g transform="translate(150, 280) rotate(-5)" opacity="0.6" filter="url(#shadow)">
+    <rect width="320" height="200" rx="16" fill="url(#cardGradient3)"/>
+    <!-- Card Pattern -->
+    <circle cx="40" cy="160" r="100" fill="white" opacity="0.1"/>
+    <circle cx="0" cy="120" r="80" fill="white" opacity="0.05"/>
+  </g>
+  
+  <!-- Rewards Icons -->
+  <!-- Cashback Icon -->
+  <g transform="translate(80, 400)">
+    <circle cx="40" cy="40" r="40" fill="#10B981" opacity="0.1"/>
+    <text x="40" y="48" font-family="Inter, sans-serif" font-size="24" font-weight="600" fill="#10B981" text-anchor="middle">₹</text>
+    <text x="40" y="90" font-family="Inter, sans-serif" font-size="12" fill="#6B7280" text-anchor="middle">5% Cashback</text>
+  </g>
+  
+  <!-- Rewards Points Icon -->
+  <g transform="translate(300, 450)">
+    <circle cx="40" cy="40" r="40" fill="#5562eb" opacity="0.1"/>
+    <path d="M40 25 L47 38 L62 38 L50 48 L55 62 L40 52 L25 62 L30 48 L18 38 L33 38 Z" fill="#5562eb"/>
+    <text x="40" y="90" font-family="Inter, sans-serif" font-size="12" fill="#6B7280" text-anchor="middle">10X Rewards</text>
+  </g>
+  
+  <!-- Travel Benefits Icon -->
+  <g transform="translate(520, 400)">
+    <circle cx="40" cy="40" r="40" fill="#7161ef" opacity="0.1"/>
+    <path d="M25 40 L35 30 L45 35 L55 25 L55 40 L55 50 L45 45 L35 50 L25 40 Z" fill="#7161ef"/>
+    <text x="40" y="90" font-family="Inter, sans-serif" font-size="12" fill="#6B7280" text-anchor="middle">Lounge Access</text>
+  </g>
+  
+  <!-- Security Badge -->
+  <g transform="translate(560, 60)">
+    <rect width="120" height="40" rx="20" fill="#10B981" opacity="0.1"/>
+    <path d="M25 20 L30 25 L40 15" stroke="#10B981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <text x="75" y="25" font-family="Inter, sans-serif" font-size="14" font-weight="500" fill="#10B981" text-anchor="middle">Secured</text>
+  </g>
+  
+  <!-- Feature Highlights -->
+  <g transform="translate(50, 100)">
+    <rect width="140" height="36" rx="18" fill="white" stroke="#E5E7EB" stroke-width="1"/>
+    <circle cx="20" cy="18" r="8" fill="#F59E0B" opacity="0.2"/>
+    <path d="M20 15 L20 21 M17 18 L23 18" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/>
+    <text x="70" y="23" font-family="Inter, sans-serif" font-size="12" fill="#374151" text-anchor="middle">Zero Fees</text>
+  </g>
+  
+  <!-- Floating Elements -->
+  <circle cx="100" cy="300" r="6" fill="#5562eb" opacity="0.3"/>
+  <circle cx="600" cy="250" r="8" fill="#7161ef" opacity="0.3"/>
+  <circle cx="550" cy="500" r="5" fill="#10B981" opacity="0.3"/>
+  
+  <!-- Decorative Stars -->
+  <path d="M150 80 L152 86 L158 86 L153 90 L155 96 L150 92 L145 96 L147 90 L142 86 L148 86 Z" fill="#F59E0B" opacity="0.3"/>
+  <path d="M620 320 L622 326 L628 326 L623 330 L625 336 L620 332 L615 336 L617 330 L612 326 L618 326 Z" fill="#F59E0B" opacity="0.3"/>
+</svg>

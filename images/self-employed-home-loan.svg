@@ -1,0 +1,157 @@
+<svg width="700" height="600" viewBox="0 0 700 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="700" height="600" rx="24" fill="#F9FAFB"/>
+  
+  <!-- Grid Pattern -->
+  <g opacity="0.1">
+    <path d="M100 0V600" stroke="#E5E7EB" stroke-width="1"/>
+    <path d="M200 0V600" stroke="#E5E7EB" stroke-width="1"/>
+    <path d="M300 0V600" stroke="#E5E7EB" stroke-width="1"/>
+    <path d="M400 0V600" stroke="#E5E7EB" stroke-width="1"/>
+    <path d="M500 0V600" stroke="#E5E7EB" stroke-width="1"/>
+    <path d="M600 0V600" stroke="#E5E7EB" stroke-width="1"/>
+    <path d="M0 100H700" stroke="#E5E7EB" stroke-width="1"/>
+    <path d="M0 200H700" stroke="#E5E7EB" stroke-width="1"/>
+    <path d="M0 300H700" stroke="#E5E7EB" stroke-width="1"/>
+    <path d="M0 400H700" stroke="#E5E7EB" stroke-width="1"/>
+    <path d="M0 500H700" stroke="#E5E7EB" stroke-width="1"/>
+  </g>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="primaryGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#5562eb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7161ef;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="houseGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#5562eb;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#7161ef;stop-opacity:0.9" />
+    </linearGradient>
+    
+    <linearGradient id="checkGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main House Icon -->
+  <g transform="translate(350, 160)">
+    <!-- House Shadow -->
+    <ellipse cx="0" cy="120" rx="120" ry="20" fill="#5562eb" opacity="0.1"/>
+    
+    <!-- House Structure -->
+    <path d="M-100 40 L0 -60 L100 40 L100 120 L60 120 L60 60 L-60 60 L-60 120 L-100 120 Z" fill="url(#houseGradient)" stroke="#5562eb" stroke-width="2"/>
+    
+    <!-- Roof -->
+    <path d="M-120 40 L0 -80 L120 40 L100 40 L0 -60 L-100 40 Z" fill="#5562eb" opacity="0.8"/>
+    
+    <!-- Door -->
+    <rect x="-20" y="60" width="40" height="60" fill="#4338ca" opacity="0.8"/>
+    <circle cx="10" cy="90" r="3" fill="#fbbf24"/>
+    
+    <!-- Windows -->
+    <rect x="-50" y="70" width="25" height="25" fill="#60a5fa" opacity="0.6"/>
+    <rect x="25" y="70" width="25" height="25" fill="#60a5fa" opacity="0.6"/>
+    
+    <!-- Chimney -->
+    <rect x="50" y="-40" width="20" height="40" fill="#5562eb" opacity="0.7"/>
+  </g>
+  
+  <!-- Professional Icons (Self-Employed) -->
+  <!-- Doctor -->
+  <g transform="translate(120, 350)">
+    <circle cx="0" cy="0" r="40" fill="white" stroke="#E5E7EB" stroke-width="2"/>
+    <path d="M0 -20 L0 20 M-20 0 L20 0" stroke="#ef4444" stroke-width="6" stroke-linecap="round"/>
+    <text x="0" y="60" font-family="Inter, sans-serif" font-size="12" fill="#6B7280" text-anchor="middle">Doctor</text>
+  </g>
+  
+  <!-- Lawyer -->
+  <g transform="translate(250, 350)">
+    <circle cx="0" cy="0" r="40" fill="white" stroke="#E5E7EB" stroke-width="2"/>
+    <path d="M-15 -15 L15 -15 M-20 15 L20 15 M-10 -15 L-10 15 M10 -15 L10 15 M0 -15 L0 15" stroke="#6366f1" stroke-width="3" stroke-linecap="round"/>
+    <text x="0" y="60" font-family="Inter, sans-serif" font-size="12" fill="#6B7280" text-anchor="middle">Lawyer</text>
+  </g>
+  
+  <!-- Consultant -->
+  <g transform="translate(380, 350)">
+    <circle cx="0" cy="0" r="40" fill="white" stroke="#E5E7EB" stroke-width="2"/>
+    <rect x="-15" y="-10" width="30" height="20" rx="2" fill="#f59e0b" opacity="0.8"/>
+    <circle cx="0" cy="-5" r="3" fill="white"/>
+    <text x="0" y="60" font-family="Inter, sans-serif" font-size="12" fill="#6B7280" text-anchor="middle">Consultant</text>
+  </g>
+  
+  <!-- Architect -->
+  <g transform="translate(510, 350)">
+    <circle cx="0" cy="0" r="40" fill="white" stroke="#E5E7EB" stroke-width="2"/>
+    <path d="M-15 10 L-15 -10 L0 -20 L15 -10 L15 10 Z" stroke="#10b981" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M-15 10 L15 10" stroke="#10b981" stroke-width="3" stroke-linecap="round"/>
+    <text x="0" y="60" font-family="Inter, sans-serif" font-size="12" fill="#6B7280" text-anchor="middle">Architect</text>
+  </g>
+  
+  <!-- Key Features -->
+  <g transform="translate(100, 450)">
+    <rect width="500" height="100" rx="16" fill="white" stroke="#E5E7EB" stroke-width="2"/>
+    
+    <!-- Bank Statement Icon -->
+    <g transform="translate(40, 30)">
+      <rect width="40" height="40" rx="8" fill="#5562eb" opacity="0.1"/>
+      <rect x="10" y="10" width="20" height="3" rx="1" fill="#5562eb"/>
+      <rect x="10" y="17" width="15" height="3" rx="1" fill="#5562eb" opacity="0.7"/>
+      <rect x="10" y="24" width="18" height="3" rx="1" fill="#5562eb" opacity="0.7"/>
+      <text x="20" y="55" font-family="Inter, sans-serif" font-size="10" fill="#6B7280" text-anchor="middle">Bank Statement</text>
+    </g>
+    
+    <!-- Quick Approval -->
+    <g transform="translate(160, 30)">
+      <rect width="40" height="40" rx="8" fill="#10b981" opacity="0.1"/>
+      <circle cx="20" cy="20" r="12" stroke="#10b981" stroke-width="3" fill="none"/>
+      <path d="M20 10 L20 20 L26 26" stroke="#10b981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="20" y="55" font-family="Inter, sans-serif" font-size="10" fill="#6B7280" text-anchor="middle">24hr Approval</text>
+    </g>
+    
+    <!-- Minimal Docs -->
+    <g transform="translate(280, 30)">
+      <rect width="40" height="40" rx="8" fill="#5562eb" opacity="0.1"/>
+      <path d="M12 10 L28 10 L28 30 L12 30 Z" stroke="#5562eb" stroke-width="2" fill="none"/>
+      <path d="M12 10 L12 30" stroke="#5562eb" stroke-width="2"/>
+      <circle cx="12" cy="20" r="2" fill="#5562eb"/>
+      <text x="20" y="55" font-family="Inter, sans-serif" font-size="10" fill="#6B7280" text-anchor="middle">Minimal Docs</text>
+    </g>
+    
+    <!-- Competitive Rates -->
+    <g transform="translate(400, 30)">
+      <rect width="40" height="40" rx="8" fill="#10b981" opacity="0.1"/>
+      <text x="20" y="25" font-family="Inter, sans-serif" font-size="16" font-weight="600" fill="#10b981" text-anchor="middle">%</text>
+      <path d="M15 15 L25 25" stroke="#10b981" stroke-width="2" stroke-linecap="round"/>
+      <text x="20" y="55" font-family="Inter, sans-serif" font-size="10" fill="#6B7280" text-anchor="middle">Best Rates</text>
+    </g>
+  </g>
+  
+  <!-- Title -->
+  <text x="350" y="60" font-family="Inter, sans-serif" font-size="24" font-weight="600" fill="#111827" text-anchor="middle">Home Loans for Self-Employed</text>
+  
+  <!-- Approval Badge -->
+  <g transform="translate(550, 100)">
+    <rect width="120" height="40" rx="20" fill="url(#checkGradient)" opacity="0.1"/>
+    <circle cx="20" cy="20" r="8" fill="url(#checkGradient)"/>
+    <path d="M17 20 L19 22 L23 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="70" y="25" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#10B981" text-anchor="middle">Approved</text>
+  </g>
+  
+  <!-- Decorative Elements -->
+  <circle cx="50" cy="50" r="20" fill="#5562eb" opacity="0.1"/>
+  <circle cx="650" cy="550" r="30" fill="#7161ef" opacity="0.1"/>
+  <circle cx="100" cy="200" r="15" fill="#10b981" opacity="0.1"/>
+  <circle cx="600" cy="250" r="18" fill="#f59e0b" opacity="0.1"/>
+  
+  <!-- Floating Document -->
+  <g transform="translate(500, 200)">
+    <rect width="60" height="80" rx="4" fill="white" stroke="#E5E7EB" stroke-width="2" transform="rotate(-10 30 40)"/>
+    <rect x="10" y="15" width="40" height="4" rx="2" fill="#E5E7EB" transform="rotate(-10 30 40)"/>
+    <rect x="10" y="25" width="30" height="4" rx="2" fill="#E5E7EB" transform="rotate(-10 30 40)"/>
+    <rect x="10" y="35" width="35" height="4" rx="2" fill="#E5E7EB" transform="rotate(-10 30 40)"/>
+    <rect x="10" y="45" width="25" height="4" rx="2" fill="#E5E7EB" transform="rotate(-10 30 40)"/>
+    <path d="M35 60 L45 65 L40 55" fill="#10b981" transform="rotate(-10 30 40)"/>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+{
+  "name": "Credifyy - Financial Services Platform",
+  "short_name": "Credifyy",
+  "description": "India's trusted financial services platform for Credit scores, loans, Credit cards and investments",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#5562eb",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/logo-28px.avif",
+      "sizes": "28x28",
+      "type": "image/avif"
+    },
+    {
+      "src": "/logo-28px@2x.avif",
+      "sizes": "56x56",
+      "type": "image/avif"
+    },
+    {
+      "src": "/logo.avif",
+      "sizes": "512x512",
+      "type": "image/avif",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["finance", "business", "productivity"],
+  "lang": "en-IN",
+  "dir": "ltr"
+}
