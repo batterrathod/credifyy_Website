@@ -28,6 +28,7 @@
                     let e = () => {
                         window.innerWidth >= 1024 && n({})
                     };
+                    
                     return window.addEventListener("resize", e), () => window.removeEventListener("resize", e)
                 }, []);
                 let y = ["SBI", "HDFC", "ICICI", "Axis", "Kotak", "PNB"],
@@ -35,6 +36,7 @@
                     f = e => !!d && b(e).length > 0,
                     k = () => !d || f(v.balanceTransferGuides) || f(v.interestRates) || f(v.emiCalculators),
                     v = {
+                        
                         personalizedHomeLoans: [{
                             href: "/loans/home-loan",
                             label: "Best Home Loan Rates"
@@ -965,6 +967,7 @@
                         return s(e) === d ? "".concat(a, " text-primary dark:text-white") : a
                     };
                 return (0, t.jsx)("footer", {
+                    
                     className: "border-t border-gray-200 pt-16 pb-8 dark:border-gray-800 bg-gray-50 dark:bg-gray-900",
                     children: (0, t.jsxs)("div", {
                         className: "mx-auto max-w-7xl px-4 sm:px-6 lg:px-8",
@@ -1271,4 +1274,5 @@
     e => {
         e.O(0, [2533, 1559, 6874, 3063, 2830, 8441, 5964, 7358], () => e(e.s = 6822)), _N_E = e.O()
     }
+
 ]);
