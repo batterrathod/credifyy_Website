@@ -8,9 +8,9 @@
                 s = a(2115),
                 n = a(9775);
             let l = [
-                { value: "5", suffix: "M+", label: "Happy Customers" },
+                { value: "2", suffix: "M+", label: "Happy Customers" },
                 { value: "90", suffix: "+", label: "Partner Banks" },
-                { prefix: "₹", value: "2500", suffix: "+", label: "Crores Saved" },
+                { prefix: "₹", value: "20", suffix: "+", label: "Crores Saved" },
                 { value: "500", suffix: "+", label: "Cities Served" },
             ],
                 i = [

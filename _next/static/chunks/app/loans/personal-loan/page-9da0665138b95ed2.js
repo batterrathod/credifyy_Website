@@ -1245,7 +1245,8 @@
                                                     }), (0, r.jsxs)("button", {
                                                         className: "flex items-center text-sm font-medium text-gray-500 hover:text-primary dark:text-gray-400 dark:hover:text-primaryLight transition-colors duration-200",
                                                         children: [(0, r.jsx)("span", {
-                                                            children: "Explore"
+                                                            children: "Explore",
+                                                            
                                                         }), (0, r.jsx)("svg", {
                                                             className: "ml-1 h-4 w-4 transition-transform duration-300 group-hover:translate-x-1",
                                                             fill: "none",

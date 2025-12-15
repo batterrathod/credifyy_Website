@@ -368,7 +368,7 @@
                                                     (0, s.jsx)("div", {
                                                         className:
                                                             "text-4xl font-bold text-gray-900 dark:text-white",
-                                                        children: "5M+",
+                                                        children: "2M+",
                                                     }),
                                                     (0, s.jsx)("div", {
                                                         className: "mt-2 text-gray-600 dark:text-gray-400",
